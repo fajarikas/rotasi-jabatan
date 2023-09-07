@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
-  </head>
-  <body class="">
+</head>
+
+<body class="">
     <!-- 
     <div class="flex">
       
@@ -58,227 +60,197 @@
       </div>
     </div>
      -->
+    
+    
 
-    <button
-      data-drawer-target="logo-sidebar"
-      data-drawer-toggle="logo-sidebar"
-      aria-controls="logo-sidebar"
-      type="button"
-      class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-    >
-      <span class="sr-only">Open sidebar</span>
-      <svg
-        class="w-6 h-6"
-        aria-hidden="true"
-        fill="currentColor"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          clip-rule="evenodd"
-          fill-rule="evenodd"
-          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
-        ></path>
-      </svg>
+    <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
+        type="button"
+        class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Open sidebar</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+            </path>
+        </svg>
     </button>
+    
 
-    <aside
-      id="logo-sidebar"
-      class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
-      aria-label="Sidebar"
-    >
-      <div class="h-full px-3 py-4 overflow-y-autob bg-[#3F497F]">
-        <a
-          href="https://flowbite.com/"
-          class="border-b-2 pb-6 flex items-center pl-2.5 mb-5"
-        >
-          <img
-            src="assets/img/logo uny.png"
-            class="h-6 mr-3 sm:h-7"
-            alt="Flowbite Logo"
-          />
-          <span
-            class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-            >Dashboard</span
-          >
-        </a>
-        <ul class="space-y-2 font-medium">
-          <li>
-            <a
-              href="#"
-              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 18"
-              >
-                <path
-                  d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"
-                />
-              </svg>
-              <span class="flex-1 ml-3 whitespace-nowrap">Data Dosen</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  d="M11.7 2.805a.75.75 0 01.6 0A60.65 60.65 0 0122.83 8.72a.75.75 0 01-.231 1.337 49.949 49.949 0 00-9.902 3.912l-.003.002-.34.18a.75.75 0 01-.707 0A50.009 50.009 0 007.5 12.174v-.224c0-.131.067-.248.172-.311a54.614 54.614 0 014.653-2.52.75.75 0 00-.65-1.352 56.129 56.129 0 00-4.78 2.589 1.858 1.858 0 00-.859 1.228 49.803 49.803 0 00-4.634-1.527.75.75 0 01-.231-1.337A60.653 60.653 0 0111.7 2.805z"
-                />
-                <path
-                  d="M13.06 15.473a48.45 48.45 0 017.666-3.282c.134 1.414.22 2.843.255 4.285a.75.75 0 01-.46.71 47.878 47.878 0 00-8.105 4.342.75.75 0 01-.832 0 47.877 47.877 0 00-8.104-4.342.75.75 0 01-.461-.71c.035-1.442.121-2.87.255-4.286A48.4 48.4 0 016 13.18v1.27a1.5 1.5 0 00-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.661a6.729 6.729 0 00.551-1.608 1.5 1.5 0 00.14-2.67v-.645a48.549 48.549 0 013.44 1.668 2.25 2.25 0 002.12 0z"
-                />
-                <path
-                  d="M4.462 19.462c.42-.419.753-.89 1-1.394.453.213.902.434 1.347.661a6.743 6.743 0 01-1.286 1.794.75.75 0 11-1.06-1.06z"
-                />
-              </svg>
+    <aside id="logo-sidebar"
+        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+        aria-label="Sidebar">
+        <div class="h-full px-3 py-4 overflow-y-autob bg-[#2D3648]">
+            <a href="https://flowbite.com/" class="border-b-2 pb-6 flex items-center pl-2.5 mb-5">
+                <img src="assets\img\Group 50 1.png" class="h-6 mr-3 sm:h-7" alt="Flowbite Logo" />
 
-              <span class="flex-1 ml-3 whitespace-nowrap">Jabatan</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 18 16"
-              >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3"
-                />
-              </svg>
-              <span class="flex-1 ml-3 whitespace-nowrap">Sign In</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="#"
-              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <svg
-                class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-              >
-                <path
-                  d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"
-                />
-                <path
-                  d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"
-                />
-                <path
-                  d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"
-                />
-              </svg>
-              <span class="flex-1 ml-3 whitespace-nowrap">Sign Up</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside>
 
-    <div class="p-4 sm:ml-64">
-      <div class="p-4">
-        <div class="grid grid-cols-3 gap-4">
+            </a>
+            <ul class="space-y-2 font-medium">
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                            <path
+                                d="M24.6145 0.916687H6.38538C4.93497 0.916687 3.54398 1.49286 2.51839 2.51845C1.4928 3.54404 0.916626 4.93503 0.916626 6.38544L0.916626 24.6146C0.916626 26.065 1.4928 27.456 2.51839 28.4816C3.54398 29.5072 4.93497 30.0834 6.38538 30.0834H24.6145C26.0649 30.0834 27.4559 29.5072 28.4815 28.4816C29.5071 27.456 30.0833 26.065 30.0833 24.6146V6.38544C30.0833 4.93503 29.5071 3.54404 28.4815 2.51845C27.4559 1.49286 26.0649 0.916687 24.6145 0.916687V0.916687ZM23.1562 16.5938H20.7791C20.5977 16.5916 20.4197 16.5437 20.2616 16.4544C20.1036 16.3652 19.9706 16.2376 19.875 16.0834L18.0666 13.2688L13.925 20.3854C13.8339 20.5492 13.7007 20.6855 13.5391 20.7804C13.3776 20.8753 13.1936 20.9252 13.0062 20.925C12.8225 20.9239 12.6421 20.8766 12.4815 20.7874C12.3209 20.6982 12.1854 20.57 12.0875 20.4146L9.66663 16.5938H7.87288C7.5828 16.5938 7.3046 16.4785 7.09948 16.2734C6.89436 16.0683 6.77913 15.7901 6.77913 15.5C6.77913 15.2099 6.89436 14.9317 7.09948 14.7266C7.3046 14.5215 7.5828 14.4063 7.87288 14.4063H10.2208C10.4025 14.4071 10.581 14.4544 10.7393 14.5438C10.8976 14.6331 11.0304 14.7615 11.125 14.9167L12.9187 17.7313L17.0604 10.6146C17.1538 10.4497 17.2896 10.3128 17.4537 10.2179C17.6178 10.1231 17.8042 10.0737 17.9937 10.075C18.1784 10.0812 18.359 10.1306 18.5211 10.2192C18.6832 10.3079 18.8222 10.4333 18.927 10.5854L21.3333 14.4063H23.0833C23.3734 14.4063 23.6516 14.5215 23.8567 14.7266C24.0618 14.9317 24.177 15.2099 24.177 15.5C24.177 15.7901 24.0618 16.0683 23.8567 16.2734C23.6516 16.4785 23.3734 16.5938 23.0833 16.5938H23.1562Z"
+                                fill="white" />
+                        </svg>
+                        <span class="flex-1 ml-3 whitespace-nowrap my-8">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
+                        <path
+                            d="M10.8917 11.9021C13.925 11.9021 16.3896 9.4375 16.3896 6.40416C16.3896 3.37083 13.925 0.90625 10.8917 0.90625C7.85837 0.90625 5.3938 3.37083 5.3938 6.40416C5.3938 9.4375 7.85837 11.9021 10.8917 11.9021Z"
+                            fill="white" />
+                        <path
+                            d="M21.5667 20.4917V23C21.5667 23.5979 21.0854 24.0938 20.4729 24.0938H2.01044C1.41252 24.0938 0.916687 23.5979 0.916687 23V20.4917C0.916687 16.9771 3.77501 14.1188 7.2896 14.1188H15.1938C15.9083 14.1188 16.5938 14.2354 17.2354 14.4688C17.2354 14.4688 17.2354 14.4542 17.25 14.4688C19.7584 15.3146 21.5667 17.6917 21.5667 20.4917Z"
+                            fill="white" />
+                        <path
+                            d="M21.5667 20.4917V23C21.5667 23.5979 21.0854 24.0938 20.4729 24.0938H2.01044C1.41252 24.0938 0.916687 23.5979 0.916687 23V20.4917C0.916687 16.9771 3.77501 14.1188 7.2896 14.1188H15.1938C15.9083 14.1188 16.5938 14.2354 17.2354 14.4688C17.2354 14.4688 17.2354 14.4542 17.25 14.4688C19.7584 15.3146 21.5667 17.6917 21.5667 20.4917Z"
+                            fill="white" />
+                        <path
+                            d="M30.0834 19.2376V21.2938C30.0834 21.7751 29.6896 22.1688 29.2084 22.1688H23.7542V20.4917C23.7542 19.0188 23.375 17.6188 22.7188 16.4084C22.4417 15.9126 22.1354 15.4459 21.7854 15.023C21.5375 14.7459 21.2896 14.4688 21.0271 14.2355H25.0813C25.2417 14.2355 25.3875 14.2355 25.5334 14.2646C25.7229 14.2792 25.9125 14.3084 26.1021 14.3521C27.2104 14.5855 28.1729 15.198 28.8875 16.0146C29.0042 16.1459 29.1209 16.2917 29.2229 16.4521C29.2375 16.4521 29.2375 16.4521 29.2229 16.4667C29.5 16.8751 29.7188 17.3125 29.8646 17.7938C29.9084 17.9542 29.9521 18.1146 29.9813 18.2751C30.0542 18.5813 30.0834 18.9021 30.0834 19.2376Z"
+                            fill="white" />
+                        <path
+                            d="M21.8875 11.6979C24.2957 11.6979 26.2479 9.74566 26.2479 7.33746C26.2479 4.92927 24.2957 2.97705 21.8875 2.97705C19.4793 2.97705 17.5271 4.92927 17.5271 7.33746C17.5271 9.74566 19.4793 11.6979 21.8875 11.6979Z"
+                            fill="white" />
+                    </svg>
+                        <span class="flex-1 ml-3 whitespace-nowrap my-8">Data Pegawai</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                            <path
+                                d="M8.66253 17.5V22.3709C8.66253 23.2459 9.10004 24.0479 9.81462 24.5292C11.5792 25.6958 14.4667 27.0813 18.2583 27.0813C19.9792 27.0813 23.3625 26.7458 26.7021 24.5146C27.4167 24.0479 27.8396 23.2459 27.8396 22.3709V17.5146L25.6521 18.4771L19.7459 21.1166C19.4105 21.2771 19.0896 21.3354 18.9146 21.35C18.4771 21.4375 18.0396 21.4375 17.6313 21.3646C17.4271 21.3355 17.1063 21.2771 16.7709 21.1166L10.85 18.4771L8.66253 17.5Z"
+                                fill="white" />
+                            <path
+                                d="M2.91671 24.9958C2.91671 26.0312 3.52921 26.9354 4.41879 27.3437V29.4874C4.41879 30.0999 4.91462 30.5812 5.51254 30.5812C6.12504 30.5812 6.60629 30.0999 6.60629 29.4874V27.3437C7.49587 26.9354 8.10837 26.0312 8.10837 24.9958C8.10837 23.9604 7.49587 23.0563 6.60629 22.6479V14.5104L8.66254 15.4291L10.85 16.4062L16.7709 19.0458C17.1063 19.2062 17.4271 19.2645 17.6313 19.2937C18.0396 19.3666 18.4771 19.3666 18.9146 19.2791C19.0896 19.2645 19.4105 19.2062 19.7459 19.0458L25.6521 16.4062L27.8396 15.4437L30.3771 14.3062C31.4271 13.8395 32.0834 12.9208 32.0834 11.8854C32.0834 10.85 31.4271 9.9166 30.3771 9.44993L19.7313 4.71035C18.798 4.3166 17.7188 4.31658 16.8 4.69575L6.12506 9.44993C5.07506 9.9166 4.41879 10.85 4.41879 11.8854V22.6479C3.52921 23.0563 2.91671 23.9604 2.91671 24.9958Z"
+                                fill="white" />
+                        </svg>
+
+                        <span class="flex-1 ml-3 whitespace-nowrap my-8">Jabatan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                        <path
+                            d="M17.5 0C7.8575 0 0 7.8575 0 17.5C0 27.1425 7.8575 35 17.5 35C27.1425 35 35 27.1425 35 17.5C35 7.8575 27.1425 0 17.5 0ZM17.15 8.34749C20.265 8.34749 22.785 10.8675 22.785 13.9825C22.785 17.08 20.265 19.6175 17.15 19.6175C14.0525 19.6175 11.5325 17.08 11.5325 13.9825C11.5325 10.8675 14.0525 8.34749 17.15 8.34749ZM27.8775 28.14C27.09 28.9275 26.1975 29.61 25.2525 30.1875C22.995 31.5875 20.335 32.375 17.5 32.375C14.665 32.375 12.005 31.5875 9.74751 30.1875C8.80251 29.61 7.91001 28.9275 7.12251 28.14V27.8075C7.12251 24.22 10.045 21.2975 13.615 21.2975H21.385C24.955 21.2975 27.8775 24.22 27.8775 27.8075V28.14Z"
+                            fill="white" />
+                    </svg>
+                        <span class="flex-1 ml-3 whitespace-nowrap my-8">Sign In</span>
+                    </a>
+                </li>
+                
+            </ul>
+            <ul class="mt-72">
+              <li>
+                    <a href="#"
+                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                            <path
+                                d="M32.0833 8.16668V26.8333C32.0226 28.2776 31.394 29.6394 30.3344 30.6226C29.2747 31.6058 27.8697 32.1308 26.425 32.0833H17.5C17.2099 32.0833 16.9317 31.9681 16.7266 31.763C16.5215 31.5579 16.4062 31.2797 16.4062 30.9896V20.0521H21.875C22.2101 20.0521 22.542 19.9861 22.8516 19.8578C23.1613 19.7296 23.4426 19.5416 23.6796 19.3046C23.9166 19.0676 24.1046 18.7863 24.2328 18.4767C24.3611 18.167 24.4271 17.8352 24.4271 17.5C24.4271 17.1649 24.3611 16.833 24.2328 16.5234C24.1046 16.2137 23.9166 15.9324 23.6796 15.6954C23.4426 15.4584 23.1613 15.2705 22.8516 15.1422C22.542 15.0139 22.2101 14.9479 21.875 14.9479H16.4062V4.01043C16.4062 3.72035 16.5215 3.44215 16.7266 3.23703C16.9317 3.03191 17.2099 2.91668 17.5 2.91668H26.425C27.8697 2.86927 29.2747 3.39426 30.3344 4.37744C31.394 5.36062 32.0226 6.72245 32.0833 8.16668Z"
+                                fill="white" />
+                            <path d="M21.875 17.5H4.03961" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M4.01044 17.5L9.84377 23.3333" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M4.01044 17.5L9.84377 11.6667" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <span class="flex-1 ml-3 whitespace-nowrap">Sign Out </span>
+                    </a>
+                </li>
+            </ul>
+          </div>
+      </aside>
+        
+      <div class="px-6 sm:ml-80 mx-auto ">
+          <p class="font-bold text-3xl text-black mt-8" > Data Pegawai</p>
+          <div class="block md:flex w-full mx-auto  md:justify-between mt-10">
+          <div class="px-5 py-10 rounded-xl block items-center justify-center bg-[#2D3648] border-[#2D3648] border-2box-border h-32 w-72">
+            <p class="text-white text-3xl font-semibold flex justify-center">10</p>
+            <p class="text-white text-xl font-normal mt-4">Total Pegawai</p>
+          </div>
+    
+
+            <div class="px-5 py-10 rounded-xl block items-center justify-center bg-[#FF5252] border-[#FF5252] border-2box-border h-32 w-72">
+              <p class="text-white text-3xl font-semibold flex justify-center">10</p>
+              <p class="text-white text-xl font-normal mt-4">Pegawai harus dirotasi</p>
+            </div>
+
           <div
-            class="px-10 py-10 rounded-xl block items-center justify-center bg-[#CD1818]"
+            class="px-5 py-10 rounded-xl block items-center justify-center bg-[#EABB13] border-2box-border h-32 w-72"
           >
-            <p class="text-white text-3xl font-semibold">10</p>
+            <p class="text-white text-3xl font-semibold flex justify-center">10</p>
             <p class="text-white text-xl font-normal mt-4"
               >Pegawai harus dirotasi</p
             >
           </div>
 
-          <div
-            class="px-10 py-10 rounded-xl block items-center justify-center bg-[#F6FA70]"
-          >
-            <p class="text-black text-3xl font-semibold">10</p>
-            <p class="text-black text-xl font-normal mt-4"
-              >Pegawai harus dirotasi</p
-            >
+          <div class="px-5 py-10 rounded-xl block items-center justify-center bg-[#1EACAD] border-2box-border h-32 w-72">
+            <p class="text-white text-3xl font-semibold flex justify-center">10</p>
+            <p class="text-white text-xl font-normal mt-4 ">Pegawai harus dirotasi</p>
           </div>
 
-          <div
-            class="px-10 py-10 rounded-xl block items-center justify-center bg-[#116D6E]"
-          >
-            <p class="text-white text-3xl font-semibold">10</p>
-            <p class="text-white text-xl font-normal mt-4"
-              >Pegawai harus dirotasi</p
-            >
-          </div>
+
         </div>
-
-        <div class="nt-10 mt-7"> </div>
-
-        <form>
-          <label
+        
+        <div class="mt-7"> 
+          
+          
+          <form>
+            <label
             for="default-search"
             class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
             >Search</label
-          >
-          <div class="relative">
-            <div
-              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
             >
-              <svg
-                class="w-4 h-4 text-gray-500 dark:text-gray-400"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 20 20"
+            <div class="relative">
+              <div
+              class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
               >
-                <path
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+              <svg
+              class="w-4 h-4 text-gray-500 dark:text-gray-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 20"
+              >
+              <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
                 />
               </svg>
             </div>
             <input
               type="search"
               id="default-search"
-              class="block w-full p-4 pl-10 text-sm rounded-lg bg-[#3F497F]"
+              class="block w-full p-4 pl-10 text-sm rounded-lg bg-[#2D3648]"
               placeholder="Cari Data...."
               required
-            />
-            <button
+              />
+              <button
               type="submit"
               class="text-[#3F497F] absolute right-2.5 bottom-2.5 bg-focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 bg-"
               >Cari</button
-            >
-          </div>
-        </form>
+              >
+            </div>
+          </form>
+        </div>
 
-        <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
-          <table
-            class="w-full bg-[#3F497F] text-sm text-left text-gray-500 dark:text-gray-400"
-          >
+          <div class="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
+            <table
+            class="w-full bg-[#2D3648] text-sm text-left text-gray-500 dark:text-gray-400"
+            >
             <thead
-              class="text-xs text-white uppercase bg-[#3F497F] border-b-2 py-2"
+              class="text-xs text-white uppercase bg-[#2D3648] border-b-2 py-2"
             >
               <tr>
                 <th scope="col" class="px-6 py-3"> Nama </th>
@@ -360,10 +332,10 @@
               </tr>
             </thead>
             <tbody>
-              <tr class="bg-[#3F497F]">
+              <tr class="bg-[#D1D9D3]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-white whitespace-nowrap"
+                  class="px-6 py-4 font-medium text-[#2D3648] whitespace-nowrap"
                 >
                   Apple MacBook Pro 17"
                 </th>
@@ -379,10 +351,10 @@
                   >
                 </td>
               </tr>
-              <tr class="bg-[#3F497F]">
+              <tr class="bg-[#D1D9D3]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#2D3648] whitespace-nowrap "
                 >
                   Microsoft Surface Pro
                 </th>
@@ -398,10 +370,10 @@
                   >
                 </td>
               </tr>
-              <tr class="bg-[#3F497F]">
+              <tr class="bg-[#D1D9D3]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                  class="px-6 py-4 font-medium text-[#2D3648] whitespace-nowrap "
                 >
                   Magic Mouse 2
                 </th>
@@ -417,10 +389,10 @@
                   >
                 </td>
               </tr>
-              <tr class="bg-[#3F497F]">
+              <tr class="bg-[#D1D9D3]">
                 <th
                   scope="row"
-                  class="px-6 py-4 font-medium text-white whitespace-nowrap"
+                  class="px-6 py-4 font-medium text-[#2D3648] whitespace-nowrap"
                 >
                   Iphone 11 minus imei
                 </th>
